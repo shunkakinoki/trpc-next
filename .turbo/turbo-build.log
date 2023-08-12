@@ -1,0 +1,42 @@
+
+> @trpc/next@10.37.1 build /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next
+> rollup --config rollup.config.ts --configPlugin rollup-plugin-swc3
+
+[36m
+[1m/Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/index.ts, /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/app-dir/server.ts, /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/app-dir/client.ts, /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/app-dir/react.ts, /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/app-dir/links/nextCache.ts, /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/app-dir/links/nextHttp.ts[22m → [1mdist[22m...[39m
+[32mcreated [1mdist[22m in [1m3.1s[22m[39m
+[36m
+[1m/Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/index.ts, /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/app-dir/server.ts, /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/app-dir/client.ts, /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/app-dir/react.ts, /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/app-dir/links/nextCache.ts, /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next/src/app-dir/links/nextHttp.ts[22m → [1mdist, dist[22m...[39m
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    26.474 KB
+original size:  37.322 KB
+code reduction: 29.07 %
+module count:   11
+
+/src/withTRPC.tsx
+█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 26 % (6.882 KB)
+/src/app-dir/server.ts
+████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 25.81 % (6.833 KB)
+/src/app-dir/create-action-hook.tsx
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 12.5 % (3.31 KB)
+/src/app-dir/links/nextCache.ts
+████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 9.31 % (2.466 KB)
+/src/app-dir/shared.ts
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5.21 % (1.379 KB)
+/src/app-dir/react.ts
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.95 % (1.311 KB)
+/src/app-dir/links/nextHttp.ts
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.8 % (1.271 KB)
+/src/app-dir/client.ts
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.77 % (1.264 KB)
+/src/createTRPCNext.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.55 % (940 Bytes)
+/src/app-dir/formDataToObject.ts
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.09 % (818 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+
+
+[32mcreated [1mdist, dist[22m in [1m43ms[22m[39m

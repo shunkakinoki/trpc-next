@@ -1,0 +1,4 @@
+
+> @trpc/next@10.37.1 codegen:entrypoints /Users/shunkakinoki/ghq/github.com/trpc/trpc/packages/next
+> tsx entrypoints.script.ts
+
